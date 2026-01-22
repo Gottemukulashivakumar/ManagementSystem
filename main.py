@@ -6,7 +6,7 @@ def main():
 
 if __name__ == '__main__':
     main()
-
+print("hi")
 
 
 
@@ -16,3 +16,7 @@ if __name__ == '__main__':
 
 
 # .venv\scripts\activate
+# git add .
+# git commit -m "this "
+# git push origin master
+# git pull origin master
