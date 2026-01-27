@@ -7,3 +7,10 @@ class EmployeeDb:
         cursor.execute(query,values)
         connect.commit()
         print("user successfully")
+
+    def searchEmp(self,email):
+        query = 'select password from user where user_email = %s'
+        values = email,
+        cursor.execute(query,values)
+        data = cursor.fetchone()
+        return data[0]

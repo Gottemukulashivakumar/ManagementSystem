@@ -18,3 +18,6 @@ class EmployeeAuthentication:
         self_e_email = e_email
         self_password = password
         self.db.createEmp(self_e_name,self_e_email,self_password)
+
+    def empLogin(self,email):
+        return self.db.searchEmp(email)

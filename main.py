@@ -14,7 +14,6 @@ if __name__ == '__main__':
 
 
 
-
 # .venv\scripts\activate
 # git add .
 # git commit -m "this "
