@@ -1,8 +1,16 @@
-# moduke for login & signup for employee and admin
+# module for login & signup for employee and admin
 
 class AdminAuthentication:
-    def adminLogin(self):
-        pass
+    def __init__(self,db,mgr_db,req_db):
+        self.db = db
+        self.mgr_db = mgr_db
+        self.req_db = req_db
+
+
+class ManagerAuthentication:
+    def __init__(self,db,req_db):
+        self.mgr_db = db
+        self.req_db = req_db
 
 class EmployeeAuthentication:
     def __init__(self,db):
